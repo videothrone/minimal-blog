@@ -13,6 +13,7 @@ This is a minimal blog boilerplate done with Next.js which I'll extend in functi
 - Auth is done with [Kinde](https://kinde.com/)
 - The ORM for handling the DB is [Prisma](https://www.prisma.io/) which runs SQLite at this time
 - This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Icons are rendered via [Hero Icons](https://heroicons.com/)
 
 ## Features
 
