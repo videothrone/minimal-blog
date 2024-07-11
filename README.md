@@ -8,7 +8,7 @@ This is a minimal blog boilerplate done with Next.js which I'll extend in functi
 
 ## Tech
 
-- [Next.js](https://nextjs.org/) is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and runs with Typescript and App Router
+- [Next.js](https://nextjs.org/) is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and uses Typescript and App Router
 - CSS is handled with Tailwind at the moment
 - Auth is done with [Kinde](https://kinde.com/)
 - The ORM for handling the DB is [Prisma](https://www.prisma.io/) which runs SQLite at this time
