@@ -2,6 +2,10 @@
 
 This is a minimal blog boilerplate done with Next.js which I'll extend in functionality down the line. This was done to prepare for a live coding challenge to learn Next.js + Tailwind. The initial basis for it is [ByteGrad's Next.js course](https://bytegrad.com/courses/professional-react-nextjs), which I will probably alter drastically over time.
 
+## Preview
+
+![Minimal Blog](/public/screenshot.png)
+
 ## Tech
 
 - [Next.js](https://nextjs.org/) is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and runs with Typescript and App Router
@@ -13,7 +17,7 @@ This is a minimal blog boilerplate done with Next.js which I'll extend in functi
 ## Features
 
 - The blog has three pages and one dynamic page / route: `Home`, `Posts`, `Create post` and `[id]` which creates a individual page for every blog entry.
-- `Create posts` is protected by Kinde Auth anbd setup the `middleware.ts` file
+- `Create posts` is protected by Kinde Auth and setup the `middleware.ts` file
 - Created posts are saved via Prisma in a SQLlite file in the `/prisma` folder
 
 ## Getting Started
