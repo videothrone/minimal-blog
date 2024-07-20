@@ -40,7 +40,7 @@ npx prisma push db
 
 KINDE_CLIENT_ID=yourclientid
 KINDE_CLIENT_SECRET=yourclientsecret
-KINDE_ISSUER_URL=yoururlfromlinde
+KINDE_ISSUER_URL=yoururlfromkinde
 KINDE_SITE_URL=http://localhost:3000
 KINDE_POST_LOGOUT_REDIRECT_URL=http://localhost:3000
 KINDE_POST_LOGIN_REDIRECT_URL=http://localhost:3000/create-post
