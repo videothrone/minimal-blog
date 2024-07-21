@@ -32,7 +32,7 @@ export default function Header() {
               <Link
                 className={`${
                   pathname === link.href ? "text-zinc-900" : "text-zinc-400"
-                }`}
+                } hover:text-zinc-900`}
                 href={link.href}
               >
                 {link.label}
