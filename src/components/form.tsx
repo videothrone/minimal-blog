@@ -56,7 +56,7 @@ export default function Form() {
       {success && <p className="text-green-500">Post created successfully! Redirecting...</p>}
       <button
         type="submit"
-        className="h-10 bg-blue-500 px-5 rounded text-white disabled:bg-blue-300"
+        className="h-10 bg-zinc-900 hover:bg-slate-400 transition-colors duration-300 px-5 rounded text-white disabled:bg-slate-400"
         disabled={isSubmitting}
       >
         {isSubmitting ? 'Submitting...' : 'Submit'}

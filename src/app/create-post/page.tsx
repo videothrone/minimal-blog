@@ -8,7 +8,7 @@ export default async function Page() {
 
       <Form />
 
-      <LogoutLink>Log out</LogoutLink>
+      <LogoutLink className="text-zinc-400 hover:text-zinc-900">Log out</LogoutLink>
     </main>
   );
 }
