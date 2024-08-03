@@ -1,5 +1,8 @@
 import Image from "next/image";
-import { PencilSquareIcon } from '@heroicons/react/24/solid'
+import Link from "next/link";
+import { PencilSquareIcon } from '@heroicons/react/24/solid';
+import PostsList from "@/components/posts-list";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
@@ -18,13 +21,17 @@ export default function Home() {
           alt="Image of a typewriter"
           className="max-w-full h-auto"
         />
-    </div>
+      </div>
       <p className="max-w-[750px] mx-auto leading-8">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, a
         natus? Dolores veritatis perferendis non doloribus numquam praesentium
         aliquid tempora qui similique, exercitationem distinctio labore culpa
         nam natus consequuntur rem!
       </p>
+      <Link href="/posts" className="mt-5 underline">All posts</Link>
+      <Suspense fallback="Loading...">
+        <PostsList limit={3} />
+      </Suspense>
     </main>
   );
 }
