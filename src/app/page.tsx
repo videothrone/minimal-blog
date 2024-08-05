@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { PencilSquareIcon } from '@heroicons/react/24/solid';
+import { HomeIcon } from '@heroicons/react/24/solid';
 import PostsList from "@/components/posts-list";
 import { Suspense } from "react";
 
@@ -11,7 +11,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-bold mb-5">
           Welcome to my blog
         </h1>
-        <PencilSquareIcon className="w-12 h-12 text-black-300 mb-5" />
+        <HomeIcon className="w-12 h-12 text-black-300 mb-5" />
       </div>
       <div className="flex justify-center">
         <Image
